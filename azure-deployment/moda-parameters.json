@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_db_name": {
+            "value": "db"
+        },
+        "virtualMachines_app_name": {
+            "value": "app"
+        },
+        "virtualMachines_dns_name": {
+            "value": "dns"
+        },
+        "natGateways_moda_nat_name": {
+            "value": "moda-nat"
+        },
+        "virtualMachines_cache_name": {
+            "value": "cache"
+        },
+        "networkInterfaces_app10_name": {
+            "value": "app10"
+        },
+        "networkInterfaces_db433_name": {
+            "value": "db433"
+        },
+        "networkInterfaces_dns446_name": {
+            "value": "dns446"
+        },
+        "publicIPAddresses_app_ip_name": {
+            "value": "app-ip"
+        },
+        "publicIPAddresses_dns_ip_name": {
+            "value": "dns-ip"
+        },
+        "bastionHosts_moda_bastion_name": {
+            "value": "moda-bastion"
+        },
+        "virtualNetworks_moda_vnet_name": {
+            "value": "moda-vnet"
+        },
+        "networkInterfaces_cache384_name": {
+            "value": "cache384"
+        },
+        "networkSecurityGroups_db_nsg_name": {
+            "value": "db-nsg"
+        },
+        "networkSecurityGroups_app_nsg_name": {
+            "value": "app-nsg"
+        },
+        "networkSecurityGroups_dns_nsg_name": {
+            "value": "dns-nsg"
+        },
+        "publicIPAddresses_moda_nat_ip_name": {
+            "value": "moda-nat-ip"
+        },
+        "networkSecurityGroups_dbnsg102_name": {
+            "value": "dbnsg102"
+        },
+        "networkSecurityGroups_cache_nsg_name": {
+            "value": "cache-nsg"
+        },
+        "publicIPPrefixes_moda_nat_prefix_name": {
+            "value": "moda-nat-prefix"
+        },
+        "publicIPAddresses_moda_bastion_ip_name": {
+            "value": "moda-bastion-ip"
+        }
+    }
+}
